@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lk-task type="Race">
+	<options auto-advance="Auto">
+		<time-gate number="1" open-time="11:15" close-time="23:59" interval-time="2"/>
+		<rules>
+			<finish fai-height="false" min-height="0"/>
+			<start max-height="0" max-height-margin="0" max-speed="0" max-speed-margin="0" height-ref="AGL"/>
+		</rules>
+	</options>
+	<taskpoints>
+		<point idx="0" name="S11190 BRIGELS DELTA" radius="19500.000000"/>
+		<point idx="1" name="S11190 BRIGELS DELTA" radius="1500.000000"/>
+		<point idx="2" name="B05225 SEDRUN STREM" radius="2000.000000"/>
+		<point idx="3" name="B73250 LA BUORA" radius="2000.000000"/>
+		<point idx="4" name="B79200 VORDER ALP TISCHAL" radius="4000.000000"/>
+		<point idx="5" name="B67130 MOMPE MEDEL -SAFETY-" radius="800.000000"/>
+	</taskpoints>
+	<waypoints>
+		<point name="B05225 SEDRUN STREM" latitude="46.699500" longitude="8.780333" altitude="2250.000000" flags="2" code="B05" format="1" country="FR" style="1"/>
+		<point name="B67130 MOMPE MEDEL -SAFETY-" latitude="46.690167" longitude="8.831500" altitude="1270.000000" flags="2" code="B67" format="1" country="FR" style="1"/>
+		<point name="B73250 LA BUORA" latitude="46.633500" longitude="8.886000" altitude="2520.000000" flags="2" code="B73" format="1" country="FR" style="1"/>
+		<point name="B79200 VORDER ALP TISCHAL" latitude="46.724833" longitude="9.048667" altitude="2000.000000" flags="2" code="B79" format="1" country="FR" style="1"/>
+		<point name="S11190 BRIGELS DELTA" latitude="46.790333" longitude="9.069167" altitude="1900.000000" flags="2" code="S11" format="1" country="FR" style="1"/>
+	</waypoints>
+</lk-task>
