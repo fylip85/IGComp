@@ -46,7 +46,7 @@ def get_details(input_file, task_file):
 
 
 task_file = "C:/Users/bethge-adm/Documents/igc_lib-master/igc_lib-master/DISENTIS.Lkt"
-path = "/Users/bethge-adm/Documents/GitHub/IGComp/Tracks/"
+path = "/Users/bethge-adm/Documents/GitHub/IGComp/IGComp/Tracks/"
 tracks = os.listdir( path )
 
 for name in tracks:
