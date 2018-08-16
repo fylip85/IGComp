@@ -30,9 +30,7 @@ def get_details(input_file, task_file):
         print flight.notes
         return
 
-    #print_flight_details(flight)
-
-
+    print_flight_details(flight)
     task = igc_lib.Task.create_from_lkt_file(task_file)
     reached_turnpoints = task.check_flight(flight)
     for t, fix in enumerate(reached_turnpoints):
@@ -40,17 +38,17 @@ def get_details(input_file, task_file):
 
 
 
+def main(): #wird halt ausgefuehrt weil main eingangspunkt
 
+    dir_path = os.path.dirname(os.path.realpath(__file__))      #use os to get this file directory  #string
+    task_file = dir_path + "\\DISENTIS.Lkt"                        #taskfile absolut path           #string
+    path = dir_path + "\\Tracks\\"                                  #igc file directory             #string
+    tracks = os.listdir( path )                                     #list of files in igc directos    #liste oder enumeration
 
+    for name in tracks:                                     #
+        if name.endswith(".igc"):
+            fullpath = path + name
+            get_details(fullpath, task_file)
 
-dir_path = os.path.dirname(os.path.realpath(__file__))
-
-task_file = dir_path + "\DISENTIS.Lkt"
-path = dir_path + "/Tracks/"
-
-tracks = os.listdir( path )
-
-for name in tracks:
-    if name.endswith(".igc"):
-        fullpath = path + name
-        get_details(fullpath, task_file)
+if __name__ == '__main__':
+    main()
