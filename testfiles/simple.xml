@@ -1,0 +1,19 @@
+<root>
+   <waypoint>
+       <coord> >text21</coord>
+       <time> >text22</time>
+       <coord> >text23</coord>
+       <coord> >text24</coord>
+       <coord> >text25</coord>
+       <coord> >text26</coord>
+  </waypoint>
+
+  <waypoint>
+      <coord> >text32</coord>
+      <time> >text42</time>
+      <coord> >text52</coord>
+      <coord> >text62</coord>
+      <coord> >text72</coord>
+      <coord> >text82</coord>
+  </waypoint>
+</root>
