@@ -15,7 +15,7 @@ from Bio.HMM.Trainer import TrainingSequence
 from Bio.Seq import Seq
 
 # A hack to import from the parent directory
-sys.path.insert(0, '..')
+#sys.path.insert(0, '..')
 import igc_lib
 
 
@@ -128,8 +128,9 @@ def main():
         sys.exit(1)
         """
 
-    #learning_dir = sys.argv[1] original
-    learning_dir = "C:/Users/bethge-adm/Documents/igc_lib-master/igc_lib-master/testfiles"
+    #learning_dir = sys.argv[1] original C:\Users\bethge-adm\Documents\GitHub\IGComp\IGComp\Tracks
+    dir_path = os.path.dirname(os.path.realpath(__file__))
+    learning_dir = dir_path + "\\Tracks\\"
     files = list_igc_files(learning_dir)
     print "Found %d IGC files in '%s'." % (len(files), learning_dir)
 
