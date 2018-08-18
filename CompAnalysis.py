@@ -38,6 +38,10 @@ def get_details(input_file, task_file):
 
 
 
+        
+
+
+
 def main(): #wird halt ausgefhrt weil main eingangspunkt
 
     dir_path = os.path.dirname(os.path.realpath(__file__))      #use os to get this file directory  #string
