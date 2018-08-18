@@ -22,6 +22,7 @@ def print_flight_details(flight):
 
 
 
+
 def get_details(input_file, task_file):
     print(input_file)
     flight = igc_lib.Flight.create_from_file(input_file)
@@ -37,8 +38,6 @@ def get_details(input_file, task_file):
         print "Turnpoint[%d] achieved at:" % t, fix.rawtime
 
 
-
-        
 
 
 
