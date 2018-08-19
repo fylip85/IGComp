@@ -7,6 +7,7 @@ import sys
 import igc_lib
 import lib.dumpers
 
+#dir_path2 = os.path.dirname(os.path.realpath(__file__))
 
 
 def print_flight_details(flight):
@@ -43,8 +44,8 @@ def get_details(input_file, task_file):
 
 def main(): #wird halt ausgefhrt weil main eingangspunkt
 
-    dir_path = os.path.dirname(os.path.realpath(__file__))      #use os to get this file directory  #string
-    task_file = dir_path + "\\DISENTIS.Lkt"                        #taskfile absolut path           #string
+    dir_path = os.path.dirname(os.path.realpath(__file__))          #use os to get this file directory  #string
+    task_file = dir_path + "\\task_files\DISENTIS.Lkt"                        #taskfile absolut path           #string
     path = dir_path + "\\Tracks\\"                                  #igc file directory             #string
     tracks = os.listdir( path )                                     #list of files in igc directos    #liste oder enumeration
 

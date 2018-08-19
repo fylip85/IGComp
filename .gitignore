@@ -5,3 +5,4 @@
 # Do not ignore anything in testfiles
 !testfiles/*
 **/.vscode/**
+**/outputfile/**

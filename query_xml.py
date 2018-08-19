@@ -1,17 +1,20 @@
 import os
 from xml.etree import ElementTree
 
-file_name = 'simple.xml'
-#file_name = 'C:/Users/bethge-adm/Documents/GitHub/IGComp/IGComp/lxml-master/samples/simple.xml'
-full_file = os.path.abspath(os.path.join( 'IGComp/testfiles' , file_name))
-print(full_file)
 
-dom = ElementTree.parse(full_file)
+dir_path = os.path.dirname(os.path.realpath(__file__))          #use os to get this file directory  #string
+task_file = dir_path + "\\outputfiles\\taskout.xml"
+
+
+print(task_file)
+
+dom = ElementTree.parse(task_file)
 print (dom)
-waypoints = dom.findall('waypoint')
+turnpoints = dom.findall('dict')
 
-for c in waypoints:
-    coord = c.find('coord').text
-    time = c.find('time').text
+for c in turnpoints:
+    coord = c.find('SSS')
 
-    print(coord, time)
+
+    
+print(turnpoints)

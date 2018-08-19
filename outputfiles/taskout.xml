@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<goal type="dict">
+		<deadline type="str">
+			15:00:00Z
+		</deadline>
+		<type type="str">
+			LINE
+		</type>
+	</goal>
+	<version type="int">
+		1
+	</version>
+	<sss type="dict">
+		<timeGates type="list">
+			<item type="str">
+				11:15:00Z
+			</item>
+		</timeGates>
+		<direction type="str">
+			ENTER
+		</direction>
+		<type type="str">
+			RACE
+		</type>
+	</sss>
+	<turnpoints type="list">
+		<item type="dict">
+			<type type="str">
+				TAKEOFF
+			</type>
+			<radius type="int">
+				100
+			</radius>
+			<waypoint type="dict">
+				<lat type="float">
+					46.7071685791
+				</lat>
+				<altSmoothed type="int">
+					2180
+				</altSmoothed>
+				<lon type="float">
+					8.79683303833
+				</lon>
+				<name type="str">
+					S01
+				</name>
+				<description type="str">
+					S01218 GENDUSAS
+				</description>
+			</waypoint>
+		</item>
+		<item type="dict">
+			<type type="str">
+				SSS
+			</type>
+			<radius type="int">
+				19500
+			</radius>
+			<waypoint type="dict">
+				<lat type="float">
+					46.7903327942
+				</lat>
+				<altSmoothed type="int">
+					1900
+				</altSmoothed>
+				<lon type="float">
+					9.06916713715
+				</lon>
+				<name type="str">
+					S11
+				</name>
+				<description type="str">
+					S11190 BRIGELS DELTA
+				</description>
+			</waypoint>
+		</item>
+		<item type="dict">
+			<radius type="int">
+				1500
+			</radius>
+			<waypoint type="dict">
+				<lat type="float">
+					46.7903327942
+				</lat>
+				<altSmoothed type="int">
+					1900
+				</altSmoothed>
+				<lon type="float">
+					9.06916713715
+				</lon>
+				<name type="str">
+					S11
+				</name>
+				<description type="str">
+					S11190 BRIGELS DELTA
+				</description>
+			</waypoint>
+		</item>
+		<item type="dict">
+			<radius type="int">
+				2000
+			</radius>
+			<waypoint type="dict">
+				<lat type="float">
+					46.6995010376
+				</lat>
+				<altSmoothed type="int">
+					2250
+				</altSmoothed>
+				<lon type="float">
+					8.78033256531
+				</lon>
+				<name type="str">
+					B05
+				</name>
+				<description type="str">
+					B05225 SEDRUN STREM
+				</description>
+			</waypoint>
+		</item>
+		<item type="dict">
+			<radius type="int">
+				2000
+			</radius>
+			<waypoint type="dict">
+				<lat type="float">
+					46.6334991455
+				</lat>
+				<altSmoothed type="int">
+					2520
+				</altSmoothed>
+				<lon type="float">
+					8.88599967957
+				</lon>
+				<name type="str">
+					B73
+				</name>
+				<description type="str">
+					B73250 LA BUORA
+				</description>
+			</waypoint>
+		</item>
+		<item type="dict">
+			<radius type="int">
+				4000
+			</radius>
+			<waypoint type="dict">
+				<lat type="float">
+					46.7248344421
+				</lat>
+				<altSmoothed type="int">
+					2000
+				</altSmoothed>
+				<lon type="float">
+					9.04866695404
+				</lon>
+				<name type="str">
+					B79
+				</name>
+				<description type="str">
+					B79200 VORDER ALP TISCHAL
+				</description>
+			</waypoint>
+		</item>
+		<item type="dict">
+			<type type="str">
+				ESS
+			</type>
+			<radius type="int">
+				800
+			</radius>
+			<waypoint type="dict">
+				<lat type="float">
+					46.6901664734
+				</lat>
+				<altSmoothed type="int">
+					1270
+				</altSmoothed>
+				<lon type="float">
+					8.83150005341
+				</lon>
+				<name type="str">
+					B67
+				</name>
+				<description type="str">
+					B67130 MOMPE MEDEL -SAFETY-
+				</description>
+			</waypoint>
+		</item>
+		<item type="dict">
+			<radius type="int">
+				200
+			</radius>
+			<waypoint type="dict">
+				<lat type="float">
+					46.6976661682
+				</lat>
+				<altSmoothed type="int">
+					1220
+				</altSmoothed>
+				<lon type="float">
+					8.84216690063
+				</lon>
+				<name type="str">
+					L01
+				</name>
+				<description type="str">
+					L01121 DISENTIS
+				</description>
+			</waypoint>
+		</item>
+	</turnpoints>
+	<taskType type="str">
+		CLASSIC
+	</taskType>
+</root>
