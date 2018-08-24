@@ -1,0 +1,25 @@
+<xml>
+  <lktask type="Race"/>
+  <options>
+    <timegate number="S11"/>
+    <rules>
+      <finish faiheight="false"/>
+      <start maxheight="0"/>
+    </rules>
+  </options>
+  <taskpoints>
+    <point lat="46.7071685791" lon="8.79683303833" name="S01"/>
+    <point lat="46.7903327942" lon="9.06916713715" name="S11"/>
+    <point lat="46.7903327942" lon="9.06916713715" name="S11"/>
+    <point lat="46.6995010376" lon="8.78033256531" name="B05"/>
+    <point lat="46.6334991455" lon="8.88599967957" name="B73"/>
+    <point lat="46.7248344421" lon="9.04866695404" name="B79"/>
+    <point lat="46.6901664734" lon="8.83150005341" name="B67"/>
+    <point lat="46.6976661682" lon="8.84216690063" name="L01"/>
+  </taskpoints>
+  <waypoints>
+    <point name="B0551234"/>
+    <point name="B0551234"/>
+    <point name="B0551234"/>
+  </waypoints>
+</xml>

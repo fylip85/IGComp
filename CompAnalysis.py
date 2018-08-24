@@ -44,9 +44,9 @@ def get_details(input_file, task_file):
 
 def main(): #wird halt ausgefhrt weil main eingangspunkt
 
-    dir_path = os.path.dirname(os.path.realpath(__file__))          #use os to get this file directory  #string
-    task_file = dir_path + "\\task_files\DISENTIS.Lkt"                        #taskfile absolut path           #string
-    path = dir_path + "\\Tracks\\"                                  #igc file directory             #string
+    dir_path = os.path.dirname(os.path.realpath(__file__))          #use os to get this file directory  
+    task_file = dir_path + "\\task_files\DISENTIS.Lkt"                        #taskfile absolut path          
+    path = dir_path + "\\Tracks\\"                                  #igc file directory            
     tracks = os.listdir( path )                                     #list of files in igc directos    #liste oder enumeration
 
     for name in tracks:                                     #

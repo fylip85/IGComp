@@ -1,0 +1,20 @@
+<xml>
+  <lktask type="Race"/>
+  <options>
+    <timegate number="S11"/>
+    <rules>
+      <finish faiheight="false"/>
+      <start maxheight="0"/>
+    </rules>
+  </options>
+  <taskpoints>
+    <point test="something" a="Name1" radius="19500"/>
+    <point a="1500" idx="Name1"/>
+    <point radius="2000" idx="Name1"/>
+  </taskpoints>
+  <waypoints>
+    <point style="1" code="B05" name="latlong_values" format="1" country="FR" altitude="2250.000000" longitude="8.780333" flags="2" latitude="46.699500"/>
+    <point style="1" code="B05" name="B05225 SEDRUN STREM" format="1" country="FR" altitude="2250.000000" longitude="8.780333" flags="2" latitude="46.699500"/>
+    <point style="1" code="B05" name="B05225 SEDRUN STREM" format="1" country="FR" altitude="2250.000000" longitude="8.780333" flags="2" latitude="46.699500"/>
+  </waypoints>
+</xml>
